@@ -36,7 +36,7 @@ bun install create-xyz
 
 Import:
 
-<!-- automd:jsimport cjs cdn name="pkg" -->
+<!-- automd:jsimport cjs cdn name="create-xyz" -->
 
 **ESM** (Node.js, Bun)
 
