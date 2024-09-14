@@ -2,6 +2,9 @@
   "name": "create-xyz",
   "version": "0.1.0",
   "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "name": "beeman/create-xyz",
     "type": "git",
