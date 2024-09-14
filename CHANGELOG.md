@@ -1,5 +1,11 @@
 # create-xyz
 
+## 0.1.4
+
+### Patch Changes
+
+- c23bb01: enable npm provenance
+
 ## 0.1.3
 
 ### Patch Changes
