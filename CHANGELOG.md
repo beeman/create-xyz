@@ -1,5 +1,11 @@
 # create-xyz
 
+## 0.1.3
+
+### Patch Changes
+
+- c876216: rename npm script to prevent double publish
+
 ## 0.1.2
 
 ### Patch Changes
