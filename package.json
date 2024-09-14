@@ -40,6 +40,7 @@
     "eslint": "^9.8.0",
     "eslint-config-unjs": "^0.3.2",
     "jiti": "^2.0.0-beta.3",
+    "pkg-pr-new": "^0.0.24",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4",
     "unbuild": "^3.0.0-rc.7",
