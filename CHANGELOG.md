@@ -1,5 +1,14 @@
 # create-xyz
 
+## 0.1.5
+
+### Patch Changes
+
+- 892fd8d: fix permissions
+- 2f719e2:
+- 99fa28e: set concurrency in workflows
+- ff1dc49: fix: set contents permissions to write
+
 ## 0.1.4
 
 ### Patch Changes
