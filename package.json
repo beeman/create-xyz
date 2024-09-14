@@ -2,7 +2,11 @@
   "name": "create-xyz",
   "version": "0.0.0",
   "description": "",
-  "repository": "beeman/create-xyz",
+  "repository": {
+    "name": "beeman/create-xyz",
+    "type": "git",
+    "url": "https://github.com/beeman/create-xyz"
+  },
   "homepage": "https://github.com/beeman/create-xyz",
   "bugs": "https://github.com/beeman/create-xyz/issues",
   "license": "MIT",
@@ -21,6 +25,9 @@
   "files": [
     "dist"
   ],
+  "bin": {
+    "create-xyz": "./dist/bin/index.cjs"
+  },
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
