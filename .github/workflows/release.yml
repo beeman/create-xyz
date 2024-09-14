@@ -7,7 +7,7 @@ on:
       - next
 
 jobs:
-  build:
+  release:
     if: ${{ github.repository_owner == 'beeman' }}
     runs-on: ubuntu-latest
     steps:
@@ -19,6 +19,13 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install
       - run: pnpm build
+      - name: Append NPM token to .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN
+          EOF
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Publish to npm
         id: changesets
         uses: changesets/action@v1
